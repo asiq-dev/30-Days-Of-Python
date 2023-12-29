@@ -18,3 +18,29 @@ while True:
         break
     except ValueError:
         print("you didn't enter a valid integer!")
+
+
+# Handling multiple possible exceptions
+        
+import math
+
+def averag(numbers):
+    try:
+        mean = math.fsum(numbers) / len(numbers)
+        print(mean)
+    
+    except (ZeroDivisionError, TypeError):
+        print("An average cannot be calculated for the values you provided.")
+
+averag(numbers = [5,4,78,48,5])
+
+
+# The finally clause
+
+def finally_flex():
+    try:
+        return
+    finally:
+        print("You return when I say you can return...")
+
+finally_flex()
