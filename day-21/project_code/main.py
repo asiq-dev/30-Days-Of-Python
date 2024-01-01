@@ -1,3 +1,29 @@
+from charts import create_chart
+from data_storage import read_column
 
-from matplotlib import pyplot
 
+user_menu = """Please choose from the following options:
+
+- Enter 'c' to chart a new graph.
+- Enter 'q' to quit.
+
+Your selection: """
+
+charting_menu = "Enter the column you'd like to chart: "
+filename_prompt = "Enter your desired file name: "
+
+def handle_chart():
+    column = int(input(charting_menu))
+    x = read_column(-1)
+    y = [float(n) for n in read_column(column)]
+    filename = input(filename_prompt).strip()
+    create_chart(x, y, filename)
+
+while True:
+    user_selection = input(user_menu)
+    if user_selection == 'q':
+        break
+    elif user_selection == 'c':
+        handle_chart()
+    else:
+        print("Sorry!, '{user_selection}' is not valid option. ")
