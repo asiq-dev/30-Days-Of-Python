@@ -18,3 +18,4 @@ for _ in  range(repetitions):
 
     print(output.format_result(rolls, total, average))
     output.log_result(rolls, total, average, log_file)
+    

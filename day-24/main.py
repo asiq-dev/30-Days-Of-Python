@@ -54,3 +54,4 @@ def intify(number):
 
 with open("numbers.txt", "r") as numbers_file:
     numbers = [intify(number) for number in numbers_file]
+
