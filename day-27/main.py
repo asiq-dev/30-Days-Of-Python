@@ -1,0 +1,2 @@
+# In day 27 , there is no code done for exercise and learn. But learn how to settings local environment with pycharm ide! link :
+# https://teclado.com/30-days-of-python/python-30-day-27-local-development/
