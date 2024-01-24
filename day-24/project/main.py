@@ -1,4 +1,8 @@
 # Project: Dice Roller
+# The user is going to be able to specify a selection of dice using the following syntax, where the number before the d represents the number of dice, and the number after the d represents how many sides those dice have.
+# python main.py 3d6
+
+
 
 import parser
 import random
@@ -18,4 +22,3 @@ for _ in  range(repetitions):
 
     print(output.format_result(rolls, total, average))
     output.log_result(rolls, total, average, log_file)
-    

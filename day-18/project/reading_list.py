@@ -1,3 +1,5 @@
+# The task for this project is relatively simple. We need to update the implementation of our reading list application so that our data is stored in a new file called books.json. We'll be retrieving all of our book data from this new file as well.
+
 import json
 
 

@@ -1,4 +1,4 @@
-# Problem:
+# Problem: Reading List
 # The brief
 # For this project the application needs to have the following functionality:
 
@@ -7,9 +7,6 @@
 # 3. Users should be able to display all the books in their reading list, and these books should be printed out in a user-friendly format.
 # 4. Users should be able to select these options from a text menu, and they should be able to perform multiple operations without restarting 
 #    the program. You can see an example of a working menu in the post on while loops
-
-
-
 
 
 
